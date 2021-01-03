@@ -1,0 +1,1 @@
+curl -i -H "Content-Type: application/json" -X POST -d '{"sepal_length" : 5, "sepal_width" : 5, "pedal_length" : 5, "pedal_width" : 5}' http://localhost:5000/prediction
